@@ -11,7 +11,7 @@ pipeline {
         echo 'deploy'
       }
     }
-    stage('Choise') {
+    stage('Choose') {
       steps {
         input(message: 'Should we continue', ok: 'yes, we should')
       }
